@@ -11,7 +11,7 @@ public class MatchDataReaderService {
     public static List<Match> matchesData = new ArrayList<Match>();
     public static void readData(){
         
-        String csvFile = "D:/WORKSPACE/Functional_Prog/src/ipl/resources/matches.csv";
+        String csvFile = "C:/Users/Sachin/Desktop/navnath/git/ipl2019-dataset/FunctionalProgramming/src/ipl/resources/matches.csv";
         BufferedReader br = null;
         String line = "";
         String cvsSplitBy = ",";

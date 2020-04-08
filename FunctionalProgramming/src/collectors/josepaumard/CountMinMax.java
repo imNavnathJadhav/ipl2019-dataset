@@ -11,13 +11,11 @@ import java.util.Comparator;
 import java.util.LongSummaryStatistics;
 import java.util.Set;
 
-import com.navnath.switchcasemodule.SwitchCaseTest;
-
 public class CountMinMax {
 
 	public static void main(String[] args) {
 		//module from other project
-		System.out.println(new SwitchCaseTest().getCountryShortCode("INDIA"));
+		//System.out.println(new SwitchCaseTest().getCountryShortCode("INDIA"));
 		
 		Set<Book> setOfBooks = BookService.getBooks();
 		

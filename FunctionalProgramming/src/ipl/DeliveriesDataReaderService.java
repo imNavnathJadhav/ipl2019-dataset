@@ -13,7 +13,7 @@ public class DeliveriesDataReaderService {
 
     public static void readData(){
         
-        String csvFile = "D:/WORKSPACE/Functional_Prog/src/ipl/resources/deliveries.csv";
+        String csvFile = "C:/Users/Sachin/Desktop/navnath/git/ipl2019-dataset/FunctionalProgramming/src/ipl/resources/deliveries.csv";
         BufferedReader br = null;
         String line = "";
         String cvsSplitBy = ",";

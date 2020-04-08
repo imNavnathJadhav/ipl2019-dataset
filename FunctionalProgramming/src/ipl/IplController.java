@@ -13,7 +13,8 @@ public class IplController {
 		List<Deliveries> deliveries = DeliveriesDataReaderService.deliveriesData;
 		//Problem2.solve(deliveries, matches);
 		
-		Problem3.solve(deliveries, matches);
+		//Problem3.solve(deliveries, matches);
+		Problem4.solve(deliveries, matches);
 	}
 
 }

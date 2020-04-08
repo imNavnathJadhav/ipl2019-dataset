@@ -119,7 +119,7 @@ public class Problem3 {
 	}
 
 
-	private static Map<Integer, List<Integer>> getMatchIdSeasonYearMapper(List<Match> matches) {
+	public static Map<Integer, List<Integer>> getMatchIdSeasonYearMapper(List<Match> matches) {
 		return matches.stream().collect(Collectors.groupingBy(Match::getSeason, TreeMap::new,
 				Collectors.teeing(Collectors.mapping(Match::getMatchId, Collectors.minBy(Comparator.naturalOrder())),
 						Collectors.mapping(Match::getMatchId, Collectors.maxBy(Comparator.naturalOrder())),
